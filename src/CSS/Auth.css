@@ -1,0 +1,47 @@
+.auth-container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    max-width: 400px; 
+    margin: 0 auto; 
+  }
+  
+  .auth-container h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .auth-container button {
+    padding: 10px 20px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .auth-container button:hover {
+    background-color: #357AE8;
+  }
+  
+  .auth-container img {
+    margin-top: 10px;
+    border-radius: 50%;
+  }
+  
+  body {
+    background-image: url('../images/download.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
