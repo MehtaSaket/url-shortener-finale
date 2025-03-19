@@ -13,6 +13,6 @@ Backend Development: Firebase Functions
 Frontend Development: React
 Application Workflow
 User Authentication: Users must log in using Firebase Authentication to access the URL shortening service.
-URL Shortening: Once logged in, users can input a long URL, and the system will generate a short URL in the format http://localhost:3000/l/${code}.
+URL Shortening: Once logged in, users can input a long URL, and the system will generate a short URL.
 Redirection: Clicking the shortened URL will redirect to the original URL via the GoLink.js component, which retrieves the long URL from Firebase.
 History View: Logged-in users can view their past shortened URLs by clicking on the "My URLs" button.
